@@ -5,5 +5,4 @@ pydantic
 pdfplumber
 pandas
 openpyxl
-google-generativeai
 google-genai
