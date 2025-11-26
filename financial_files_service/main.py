@@ -19,6 +19,7 @@ app = FastAPI(title="Financial Files Service")
 origins: List[str] = [
     "http://localhost:5173",  # Frontend local de React/Vite
     "http://127.0.0.1:5173",
+    "https://fintelligente-nxwwpyk70-npinzonms-projects.vercel.app"
     # 🚨 IMPORTANTE: Añade tu URL de Vercel aquí después del despliegue en Render
     # Por ejemplo: "https://mi-app-financiera.vercel.app"
 ]
