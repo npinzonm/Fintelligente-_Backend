@@ -2,9 +2,8 @@
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware # 1. Importación clave
-from app.routers import files
+from financial_files_service import files
 from dotenv import load_dotenv
-import os
 from typing import List
 
 # Cargar variables de entorno al iniciar
