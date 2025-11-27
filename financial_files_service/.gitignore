@@ -1,0 +1,8 @@
+# Crea el archivo si no existe
+touch .gitignore
+
+# Luego ábrelo y añade las líneas:
+# .env
+# .venv/
+# __pycache__/
+# *.pyc
