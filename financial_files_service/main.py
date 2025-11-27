@@ -21,7 +21,7 @@ origins: List[str] = [
     "http://127.0.0.1:5173",
     "https://fintelligente-nxwwpyk70-npinzonms-projects.vercel.app",
     "https://fintelligente-faowu83or-npinzonms-projects.vercel.app",
-    "https://fintelligente-nv.vercel.app/"
+    "https://fintelligente-nv.vercel.app/",
     # 🚨 IMPORTANTE: Añade tu URL de Vercel aquí después del despliegue en Render
     # Por ejemplo: "https://mi-app-financiera.vercel.app"
 ]
