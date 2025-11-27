@@ -1,8 +1,5 @@
-# Crea el archivo si no existe
-touch .gitignore
+# Ignorar secretos de la aplicación
+.env
 
-# Luego ábrelo y añade las líneas:
-# .env
-# .venv/
-# __pycache__/
-# *.pyc
+# Ignorar entorno virtual
+.venv/
